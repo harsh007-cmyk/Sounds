@@ -4,7 +4,7 @@ function stopSounds(){
   for(var i=0; i<btnsxyz.length;i++){
     const sound = document.getElementById(btnsxyz[i].innerText);
     sound.pause();
-     sound.currentTime = 20;
+     sound.currentTime = 0;
   }
 }
 function playSound(btn){
